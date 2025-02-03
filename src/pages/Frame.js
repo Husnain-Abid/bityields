@@ -191,7 +191,7 @@ export default function Frame() {
 
                                     {/* Dropdown Menu */}
                                     {isDropdownOpen && (
-                                        <div className="absolute left-0 mt-2 w-[450px] bg-white border rounded-lg shadow-md z-10">
+                                        <div className="absolute left-0 mt-2 w-[350px] md:w-[450px] bg-white border rounded-lg shadow-md z-10">
 
 
 

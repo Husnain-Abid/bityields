@@ -105,7 +105,7 @@ export default function Home() {
                 <span className='text-black text-sm font-semibold'> My Invest </span>
               </div>
 
-              <div>
+              <div className='hidden md:block'>
                 <button className="bg-black text-white px-4 py-1 rounded-full whitespace-nowrap mr-2">Stratégie BTC</button>
                 <button className="border px-4 py-1 rounded-full whitespace-nowrap">Strategie ETH</button>
               </div>
@@ -137,7 +137,7 @@ export default function Home() {
 
                 {/* Dropdown Menu */}
                 {isDropdownOpen && (
-                  <div className="absolute left-0 mt-2 w-[450px] bg-white border rounded-lg shadow-md z-10">
+                  <div className="absolute left-0 mt-2 w-[350px] md:w-[450px] bg-white border rounded-lg shadow-md z-10">
 
 
 

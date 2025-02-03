@@ -56,13 +56,13 @@ export default function Header({ toggleSidebar }) {
                             <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 6h16M4 12h16M4 18h16" />
                         </svg>
                     </button>
-                    <span className="font-semibold text-xl">{getTitle()}</span>
+                    <span className="font-semibold text-sm  md:text-xl">{getTitle()}</span>
                 </div>
 
                 {/* Connect Wallet Button */}
                 <div className="relative inline-block" ref={dropdownRef}>
                     <button
-                        className="px-4 py-2 bg-black text-white rounded-[4px] text-sm sm:text-base"
+                        className=" p-1 md:px-4 md:py-2 bg-black text-white rounded-[4px] text-xs md:text-sm sm:text-base"
                         onClick={() => setIsOpen(!isOpen)}
                     >
                         Connect my wallet

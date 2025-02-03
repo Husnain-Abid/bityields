@@ -189,7 +189,7 @@ export default function FrameEth() {
 
                                     {/* Dropdown Menu */}
                                     {isDropdownOpen && (
-                                        <div className="absolute left-0 mt-2 w-[450px] bg-white border rounded-lg shadow-md z-10">
+                                        <div className="absolute left-0 mt-2 w-[350px] md:w-[450px] bg-white border rounded-lg shadow-md z-10">
 
 
 
@@ -271,13 +271,13 @@ export default function FrameEth() {
                                                                 <div className="flex items-center gap-2">
                                                                     <div className="relative h-5 w-5">
                                                                         <img
-                                                                            src={coin3}
+                                                                            src={coin4}
                                                                             alt="ETH"
                                                                             fill
                                                                             className="rounded-full"
                                                                         />
                                                                     </div>
-                                                                    <span>BTC</span>
+                                                                    <span>ETH</span>
                                                                                                                                     </div>
                                                                 <svg
                                                                     width="12"
@@ -305,13 +305,13 @@ export default function FrameEth() {
                                                                     >
                                                                         <div className="relative h-5 w-5">
                                                                             <img
-                                                                                src={coin4}
+                                                                                src={coin3}
                                                                                 alt="ETH"
                                                                                 fill
                                                                                 className="rounded-full"
                                                                             />
                                                                         </div>
-                                                                        <span>ETH</span>
+                                                                        <span>BTC</span>
 
                                                                     </button>
                                                                 </div>
