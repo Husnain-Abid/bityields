@@ -15,7 +15,8 @@ export default function Header({ toggleSidebar }) {
     // Set header title based on route
     const getTitle = () => {
         if (location.pathname === '/') return 'Home';
-        if (location.pathname === '/frams') return 'Farms';
+        if (location.pathname === '/strategy-btc') return 'Farms - Strategy BTC';
+        if (location.pathname === '/strategy-eth') return 'Farms - Strategy ETH';
         return 'Dashboard'; // Default title for other routes
     };
 
@@ -76,8 +77,8 @@ export default function Header({ toggleSidebar }) {
                                     setIsOpen(false);
                                 }}
                             >
-                                <span className="mr-2 text-lg"><X  className='w-4'/></span>
-                                <span className='text-sm'> Connect my Wallet </span>
+                                <span className="mr-2 text-lg"><X  className='w-6'/></span>
+                                <span className='text-base'> Connect my Wallet </span>
                             </button>
 
 
@@ -86,15 +87,15 @@ export default function Header({ toggleSidebar }) {
                                 <>
                                     <button
                                         key={wallet.id}
-                                        className="flex items-center gap-5 px-4 py-2 w-full text-left hover:bg-gray-100"
+                                        className="flex items-center gap-5 p-4  w-full text-left hover:bg-gray-100"
                                         onClick={() => {
                                             setIsOpen(false);
                                             console.log(`Selected Wallet: ${wallet.name}`);
                                         }}
                                     >
-                                        <img src={wallet.icon} alt={wallet.name}  />
+                                        <img src={wallet.icon} alt={wallet.name} className='w-10 ' />
 
-                                        <span className="text-lg">  {wallet.name}  </span>
+                                        <span className="text-sm font-medium">  {wallet.name}  </span>
                                         
                                     </button>
                                 </>

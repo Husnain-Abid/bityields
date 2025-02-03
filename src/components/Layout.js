@@ -28,7 +28,7 @@ export default function Layout() {
         <Header toggleSidebar={toggleSidebar} />
 
         {/* Main Content Area with Scrollable Section */}
-        <div className="flex-1 overflow-y-auto bg-gray-50 no-scrollbar">
+        <div className="flex-1 overflow-y-auto  no-scrollbar">
           <Outlet />
         </div>
       </div>
