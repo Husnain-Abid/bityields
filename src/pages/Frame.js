@@ -377,7 +377,7 @@ export default function Frame() {
 
                                 <div className='grid grid-cols-2 gap-4 mb-2 flex justify-between'>
                                     <p className="text-xs text-black font-medium">API</p>
-                                    <p className="text-[12px]">35%</p>
+                                    <p className="text-[12px]">20%</p>
                                 </div>
 
                                 <div className='grid grid-cols-2 gap-4 mb-2 flex justify-between'>
