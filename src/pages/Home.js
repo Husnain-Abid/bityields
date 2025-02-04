@@ -53,8 +53,9 @@ export default function Home() {
           {/* BTC Strategy */}
           <div className="bg-[#FFF6E5] rounded-2xl p-4 sm:p-6">
             <div className="flex items-center gap-4 mb-4">
-              <div className="w-10 h-10 bg-orange-400 rounded-full flex items-center justify-center overflow-hidden">
-                <img src={coin2} alt="" className="w-5 h-6 object-contain" />
+              {/* bitcoin  */}
+              <div >
+                <img src={coin2} alt="" className="w-9 h-9 object-contain" />
               </div>
               <div>
                 <h3 className="font-medium">Strategy BTC</h3>
@@ -75,8 +76,8 @@ export default function Home() {
           <div className="bg-[#F9F9FA] rounded-2xl p-4 sm:p-6 border">
             <div className="flex items-center gap-4 mb-4">
 
-              <div className="w-10 h-10 bg-white rounded-full flex items-center justify-center overflow-hidden">
-                <img src={coin1} alt="" className="w-4  object-contain" />
+              <div >
+                <img src={coin1} alt="" className="w-10 h-10  object-contain" />
               </div>
 
 
@@ -586,7 +587,7 @@ export default function Home() {
                   </div>
                   <div className="grid grid-cols-2 gap-4 mb-2">
                     <p className="text-xs text-black font-medium">Protocol</p>
-                    <p className="text-[12px]">SushiSwap & Aave</p>
+                    <p className="text-[12px]">Uniswap & Aave</p>
                   </div>
                   <div className="grid grid-cols-2 gap-4 mb-2">
                     <p className="text-xs text-black font-medium">Delta Neutral</p>
